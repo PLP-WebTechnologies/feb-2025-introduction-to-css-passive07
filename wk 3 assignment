@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initials-scale=1.0">
+        <!-- 3.external css-->
+         <link rel="stylesheet" href="styles.css">
+        <ttle>Intro to Css</ttle>
+        <style>
+        div{
+            padding: 50px;
+            border: 3px solid brown
+        }
+        img {
+             margin: 30px 15px 10px 15px; /* top right bottom left or clockwise rule*/
+        }
+        </style>
+        <!-- 2 internal css-->
+         <Style>
+            p {
+                Color:brown;
+                font-size: 20px;
+                text-align: center;
+            }
+         </Style>
+    </head>
+    <body>
+        <!-- 1 inline css -->
+        <h1 style="color: green; font-weight: 500">Cascading Stylesheet</h1>
+        <p>this is paragraph styled with css.</p>
+        <a id="google" href="www.google.com">Google</a>
+        <diV>
+            <img src="serenity.jpg" width="300" height="400">
+            <img src="serenity.jpg" width="300" height="400">
+        </diV>
+        <footer class="home-footer">
+           &copy; 2025
+        </footer>
+    </body>
+</html>
+
